@@ -1,0 +1,86 @@
+
+
+.container{
+   
+    height:90vh;
+    padding-top: 60px;
+    border: 1px gainsboro;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
+.list{
+    list-style: none;
+    padding: 5px;
+}
+
+
+
+.listItems{
+    
+    font-size: 20px;
+    padding: 2px;
+}
+
+.bar{
+    background-color: #8d8e91;
+    display: block;
+    height: 8px;
+    border: 1px solid oldlace;
+    border-radius: 3px;
+    overflow: hidden;
+    width: 500px;
+    
+    box-shadow: 0 0 6px #85c8e5 ;
+
+}
+.head{
+    font-size: 40px;
+}
+.head:hover{
+    transition: 0.5s;
+    transform: scale(1.2);
+}
+.bar span{
+    height: 6px;
+    float: left;
+    background-color: #2a5c71;
+}
+
+.html{
+    width: 70%;
+}
+
+.css{
+    width: 60%;
+}
+
+.jQuery{
+    width:40%;
+
+}
+
+.Javascript{
+    width:30%;
+}
+
+.bootstrap{
+    width:80%;
+}
+
+
+@media all and (max-width:700px){
+    .head{
+        font-size: 3em;
+    }
+    .listItems{
+        font-size:0.9em;
+    }
+    .bar{
+        width:20em;
+    }
+}

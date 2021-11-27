@@ -1,0 +1,106 @@
+.container{
+    width:100%;
+    
+    padding:0px 100px;
+    padding-top: 50px;
+    text-align: center;
+    justify-content: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
+.card1{
+  
+   display: flex;
+   justify-content: center;
+   padding: 20px;
+   margin: 10px;
+  
+   
+
+   
+}
+
+.card2{
+    border:none;
+}
+
+.overlay{
+   
+   position: absolute;
+   margin-top: 0px;
+    width:38.6vw;
+    height: 44.4vh;
+    background: rgba(0,0,0,0.6);
+    color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.25s;
+}
+
+.overlay >*{
+    transform: translateY(10px);
+    transition: transform 0.25s;
+}
+
+.overlay:hover{
+    opacity: 1;
+}
+
+.overlay:hover >*{
+    transform: translateY(0);
+}
+
+.title{
+    font-size: 30px;;
+    font-weight: bold;
+}
+
+.desc{
+    font-size: 1em;
+    
+}
+
+.head{
+    font-size: 40px;    
+    padding: 10px;
+   
+}
+.head:hover{
+    transform: scale(1.2);
+    transition: 0.5s;
+}
+
+.subhead{
+    font-size: 25px;
+    margin-top: 0.05em;
+}
+
+@media all and (max-width:1200px) {
+    .card1{
+        
+        padding: 5px;
+        margin: 0;
+    }
+    .overlay{
+        display: none;
+    }
+    .head{
+        padding: 0;
+        font-size: 2em;
+    }
+    .subhead{
+        margin: 0;
+        font-size: 0.9em;
+    }
+}
+  
+
+
+
+
+
+

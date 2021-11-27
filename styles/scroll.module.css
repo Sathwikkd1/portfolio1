@@ -1,0 +1,16 @@
+.container{
+    position: fixed; 
+   bottom: 0;
+   right: 0;
+   bottom: 40px;
+   height: 30px;
+   font-size: 10px;
+   z-index: 1;
+   cursor: pointer;
+   color:#2a5c71 ;
+}
+
+.btn{
+    width:40px;
+    height: 40px;
+}
