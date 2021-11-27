@@ -14,9 +14,7 @@
     
 
 }
-.mobileMenu{
-    display: none;
-}
+
 .logo{
     
     font-size: 25px;
@@ -33,20 +31,7 @@
     justify-content: space-around;
     
 }
-.button{
-    list-style-type: none;
-    cursor: pointer;
-    padding: 5px 30px;
-    font-size: 17px;
-    justify-content: space-around;
-    
-    
-}
-.button:hover{
-    text-decoration: underline;
-    transform: scale(1.2);
-    transition: 0.5s;
-}
+
 .list{
     padding: 0px 10px;
     display: flex;
@@ -60,40 +45,6 @@
     transform: scale(1.2);
     transition: 0.5s;
 }
-.toggle{
-    display: none;
-}
-.toggle{
-    cursor: pointer;
-    list-style-type: none;
-}
-.bars{
-    background-color: #999;
-    border-radius: 20px;
-    height: 2px;
-    width: 20px;
-    display: inline-block;
-    position: relative;
-}
-.bars::after,.bars::before{
-    background-color: #999;
-    border-radius: 20px;
-    height: 2px;
-    width: 20px;
-    display: inline-block;
-    content: "";
-    position:absolute;
-
-}
-
-
-.bars::after{
-    top: -5px;
-
-}
-.bars::before{
-    top: 5px;
-}
 
 
 
@@ -105,18 +56,13 @@
         height: 40px;
 
     }
-    .toggle{
-        display: visible;
-    }
+    
 
-    .mobileMenu{
-        display: block;
-    }
-
+    
    
     .listItems{
         font-size: 0.6em;
-        padding: 0 3px;
+        padding: 0 5px;
        
     }
     .logo{
