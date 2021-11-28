@@ -120,6 +120,55 @@ function Portfolio  ()  {
                 </div>
 
                 </div>
+
+                <div className={styles.card3}>
+            
+                <Image
+                    
+                    src="/cv.jpg"
+                  alt="Air canvas"
+                  height="150px"
+                  width="250px"
+                    
+                     
+                />
+            </div>
+            <div className={styles.card3}>
+            
+                <Image
+                    
+                    src="/js.jpg"
+                  alt="Air canvas"
+                  height="150px"
+                  width="250px"
+                    
+                     
+                />
+            </div>
+            <div className={styles.card3}>
+            
+                <Image
+                    
+                    src="/ecg.jpg"
+                  alt="health"
+                  height="150x"
+                  width="250px"
+                    
+                     
+                />
+            </div>
+            <div className={styles.card3}>
+            
+                <Image
+                    
+                    src="/car.jpg"
+                  alt="robot"
+                  height="150px"
+                  width="250px"
+                    
+                     
+                />
+            </div>
             </div>)}
 
           

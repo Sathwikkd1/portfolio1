@@ -40,6 +40,9 @@
     opacity: 0;
     transition: opacity 0.25s;
 }
+.card3{
+    display: none;
+}
 
 .overlay >*{
     transform: translateY(10px);
@@ -87,6 +90,9 @@
     }
     .overlay{
         display: none;
+    }
+    .card3{
+        display: visible;
     }
     .head{
         padding: 0;
