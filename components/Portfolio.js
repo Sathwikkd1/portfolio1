@@ -140,7 +140,7 @@ function Portfolio  ()  {
         <div className={styles.Card1}>
             <div className={styles.upperContainer}>
                 
-                    <Image src="/12.jpeg " alt="" height="180px" width="300px"/>
+                    <Image src="/1.jpeg " alt="" height="180px" width="300px"/>
                
                 <div className={styles.lowerContainer}>
                     <h3>Card1</h3>
@@ -153,7 +153,7 @@ function Portfolio  ()  {
          <div className={styles.Card1}>
             <div className={styles.upperContainer}>
                 
-                    <Image src="/358806.jpg " alt="" height="180px" width="300px"/>
+                    <Image src="/2.jpg " alt="" height="180px" width="300px"/>
                
                 <div className={styles.lowerContainer}>
                     <h3>CARD 2</h3>
