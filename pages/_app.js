@@ -13,29 +13,10 @@ import Navbar from '../components/Navbar'
 
 
 
-function MyApp({ 
-  Component, pageProps }) 
-  {
-    
-   
-  return (
-  <div>
-
-
-
-
-     
-    <Navbar/>
-    <Intro/>
-    <ScrollButton/>
-    <Education/>
-    <Skills/>
-    <Portfolio/>
-   
-    <Contact/>
-    <Footer/>
-  </div>
-  )
+function MyApp({ Component ,...pageProps} ){
+  return <Component {...pageProps} />
 }
+ 
+
 
 export default MyApp

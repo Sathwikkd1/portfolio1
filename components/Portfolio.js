@@ -144,8 +144,8 @@ function Portfolio  ()  {
                
                 <div className={styles.lowerContainer}>
                     <h3>Card1</h3>
-                    <p> redirecting card1.</p>
-                   <button  className={styles.btn}>View more</button>
+                   <p> redirecting card1.</p>
+                   <Link href='/page1'><button  className={styles.btn}>View more</button></Link>
                 </div>
             </div>
          </div>  
@@ -159,7 +159,7 @@ function Portfolio  ()  {
                     <h3>CARD 2</h3>
                     <p> redirecting card2.</p>
                    
-                    <button  className={styles.btn}>View more</button>
+                    <Link href='/page2'><button  className={styles.btn}>View more</button></Link>
                 </div>
             </div>
          </div>  
