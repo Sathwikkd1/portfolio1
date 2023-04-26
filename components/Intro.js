@@ -17,10 +17,10 @@ function Intro() {
 
                 
                <h1 className={styles.title}>
-                  Hi, I&apos;m Megha
+                  JSS SCIENCE AND TECHNOLOGY UNIVERSITY
                 </h1>
-                <p className={styles.description}>I&apos;m an engineering student. 
-                   <br/> I love to create websites from scratch.
+                <p className={styles.description}>MYSURU 
+                   <br/> Development of automated library management system
                 </p>
                 <button className={styles.btn}><Link to="contact" smooth={true}>Contact ME!!</Link></button>
 
