@@ -31,8 +31,8 @@ function Portfolio  ()  {
     return(
      <div className={styles.content} id="portfolio">
 
-         <h1 className={styles.head}>Portfolio</h1>
-         <h2 className={styles.subhead}>My Projects</h2>
+         <h1 className={styles.head}>Books</h1>
+         <h2 className={styles.subhead}>Department</h2>
 
          <div className={styles.container}>
         <div className={styles.Card1}>
@@ -41,9 +41,9 @@ function Portfolio  ()  {
                     <Image src="/cv.jpg " alt="" height="180px" width="300px"/>
                
                 <div className={styles.lowerContainer}>
-                    <h3>AIR CANVAS</h3>
-                    <p> A computer vision project.</p>
-                    <button onClick={toggleModal1} className={styles.btn}>View more</button>
+                    <h3>CSE</h3>
+                    <p></p>
+                    <button onClick={toggleModal1} className={styles.btn}>View subjects</button>
                 </div>
             </div>
          </div>  
@@ -51,9 +51,8 @@ function Portfolio  ()  {
               <div className={styles.modal}>
               <div className={styles.overlay}>
                   <div className={styles.modalContent}>
-                      <h2>AIR CANVAS</h2>
-                      <p> It can draw anything by capturing
-                           the motion of the finger tip
+                      <h2>CSE</h2>
+                      <p>Computer Science Engineering
                      </p>
                      <button className={styles.closeModal} onClick={toggleModal1} >Close</button>
                   </div>
@@ -66,8 +65,8 @@ function Portfolio  ()  {
                     <Image src="/js.jpg " alt="" height="180px" width="300px"/>
                
                 <div className={styles.lowerContainer}>
-                    <h3>CODE PLAYER</h3>
-                    <p>Code debugger</p>
+                    <h3>ECE</h3>
+                    
                     <button onClick={toggleModal2} className={styles.btn}>View more</button>
                 </div>
             </div>
@@ -76,9 +75,8 @@ function Portfolio  ()  {
               <div className={styles.modal}>
               <div className={styles.overlay}>
                   <div className={styles.modalContent}>
-                      <h2>CODE PLAYER</h2>
-                      <p>  It helps to test snippets of  javascript and css code, 
-               within some context, and debug the code collaboratively.
+                      <h2>ECE</h2>
+                      <p>  Electronics and Communication Engineering
                      </p>
                      <button className={styles.closeModal} onClick={toggleModal2} >Close</button>
                   </div>
@@ -93,8 +91,8 @@ function Portfolio  ()  {
                     <Image src="/ecg.jpg " alt="" height="180px" width="300px"/>
                
                 <div className={styles.lowerContainer}>
-                    <h3>HEALTH MONITORING</h3>
-                    <p>Arduino based health monitoring system</p>
+                    <h3>ISE</h3>
+                    <p></p>
                     <button onClick={toggleModal3} className={styles.btn}>View more</button>
                 </div>
             </div>
@@ -103,8 +101,8 @@ function Portfolio  ()  {
               <div className={styles.modal}>
               <div className={styles.overlay}>
                   <div className={styles.modalContent}>
-                      <h2>HEALTH MONITORING</h2>
-                      <p> Arduino based health monitoring system.
+                      <h2>ISE</h2>
+                      <p> Information Science and Engineering
                      </p>
                      <button className={styles.closeModal} onClick={toggleModal3} >Close</button>
                   </div>
@@ -117,8 +115,8 @@ function Portfolio  ()  {
                     <Image src="/car.jpg " alt="" height="180px" width="300px"/>
                
                 <div className={styles.lowerContainer}>
-                    <h3>DTMF CAR</h3>
-                    <p> Mobile controlled car.</p>
+                    <h3>IP</h3>
+                    <p> </p>
                     <button onClick={toggleModal4} className={styles.btn}>View more</button>
                 </div>
             </div>
@@ -127,8 +125,8 @@ function Portfolio  ()  {
               <div className={styles.modal}>
               <div className={styles.overlay}>
                   <div className={styles.modalContent}>
-                      <h2>DTMF CAR</h2>
-                      <p>  DTMF based mobile controlled robotic car.
+                      <h2>IP</h2>
+                      <p>Industrial Production
                      </p>
                      <button className={styles.closeModal} onClick={toggleModal4} >Close</button>
                   </div>
