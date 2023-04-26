@@ -20,18 +20,18 @@ function Navbar() {
             
            
            <ul className={styles.list}>
-           <Link className={styles.logo} href="/">Portfolio</Link>
+           <Link className={styles.logo} href="/">Library Management</Link>
                <li className={styles.listItems}>
                    <Link to="about" smooth={true} >About</Link>
                </li>
                <li className={styles.listItems}>
-                   <Link to="education" smooth={true}><a>Education</a></Link>
+                   <Link to="education" smooth={true}><a>Books</a></Link>
                </li>
                <li className={styles.listItems}>
-                   <Link to="skills" smooth={true}>Skills</Link>
+                   <Link to="skills" smooth={true}>SignUP</Link>
                </li>
                <li className={styles.listItems}>
-                   <Link to="portfolio" smooth={true}>Portfolio</Link>
+                   <Link to="portfolio" smooth={true}>Login</Link>
                </li>
                <li className={styles.listItems}>
                    <Link to="contact" smooth={true}>Contact</Link>
