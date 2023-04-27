@@ -22,14 +22,14 @@ function Intro() {
                 <p className={styles.description}>MYSURU 
                    <br/> Development of automated library management system
                 </p>
-                <button className={styles.btn}><Link to="contact" smooth={true}>Contact ME!!</Link></button>
+                <button className={styles.btn}><Link to="contact" smooth={true}>Contact</Link></button>
 
             
             </div>
 
-            <div className={styles.card}>
-                <Image className={styles.pic} src="/pic.jpeg" width="170vw" height="170vh" alt="/"></Image>
-            </div>
+            //<div className={styles.card}>
+              //  <Image className={styles.pic} src="/pic.jpeg" width="170vw" height="170vh" alt="/"></Image>
+            //</div>
 
             
             
