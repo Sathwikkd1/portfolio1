@@ -1,7 +1,7 @@
 import styles from '../styles/Navbar.module.css'
 import { Link } from "react-scroll"
 
-import link from 'next\link'
+import Link from 'next/link';
 
 
 
