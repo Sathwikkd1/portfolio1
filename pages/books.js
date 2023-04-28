@@ -5,7 +5,7 @@ import {useState} from 'react'
 import React from 'react';
 import Link from 'next/link';
 
-
+import Navbar from '../components/Navbar'
 
 
 
@@ -165,6 +165,8 @@ function Portfolio  ()  {
          </div>
             </div>)}
 
-          
+     
 
 export default Portfolio;
+
+<Navbar\>
