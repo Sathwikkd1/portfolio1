@@ -10,15 +10,14 @@ function Contact() {
         }).catch(err => console.log(err));
     }
     return (
-        <div className={styles.container} id="contact">
-           <h1 className={styles.title}>GET IN TOUCH </h1>
+        <div className={styles.container} id="Login">
+ 
            <form className={styles.form} onSubmit={sendEmail}>
                <input className={styles.inputS} name="Username"placeholder="Username"/>
-               <input className={styles.inputS} name="Phone" placeholder="Phone"/>
-               <input className={styles.inputL} name="Email" placeholder="Email"/>
-               <input className={styles.inputL} name="Subject" placeholder="Subject"/>
-               <textarea className={styles.textarea} placeholder="Message" row={6} />
-               <button className={styles.btn}>SUBMIT</button> 
+               <input className={styles.inputS} name="Password"placeholder="Password"/>
+               
+               
+               <button className={styles.btn}>Login</button> 
            </form>
         </div>
     )
