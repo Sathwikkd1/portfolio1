@@ -7,7 +7,6 @@ import Link from 'next/link';
 
 import Navbar from '../components/Navbar'
 
-<Navbar/>
 
 function Portfolio  ()  {
     const [modal1,setModal1] = useState(false)
@@ -165,7 +164,7 @@ function Portfolio  ()  {
          </div>
             </div>)}
 
-     
+     <Navbar/>
 
 export default Portfolio;
 
