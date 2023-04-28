@@ -43,7 +43,7 @@ function Portfolio  ()  {
                 <div className={styles.lowerContainer}>
                     <h3>CSE</h3>
                     <p></p>
-                    <button onClick={toggleModal1} className={styles.btn}>View subjects</button>
+                    <button onClick={toggleModal1} className={styles.btn}>View more</button>
                 </div>
             </div>
          </div>  
@@ -134,35 +134,7 @@ function Portfolio  ()  {
           </div>
          )} 
          </div>
-         <div className={styles.container}>
-        <div className={styles.Card1}>
-            <div className={styles.upperContainer}>
-                
-                    <Image src="/1.jpeg " alt="" height="180px" width="300px"/>
-               
-                <div className={styles.lowerContainer}>
-                    <h3>Card1</h3>
-                   <p> redirecting card1.</p>
-                   <Link href='/page1'><button  className={styles.btn}>View more</button></Link>
-                </div>
-            </div>
-         </div>  
-        
-         <div className={styles.Card1}>
-            <div className={styles.upperContainer}>
-                
-                    <Image src="/2.jpg " alt="" height="180px" width="300px"/>
-               
-                <div className={styles.lowerContainer}>
-                    <h3>CARD 2</h3>
-                    <p> redirecting card2.</p>
-                   
-                    <Link href='/page2'><button  className={styles.btn}>View more</button></Link>
-                </div>
-            </div>
-         </div>  
          
-         </div>
             </div>)}
 
           
