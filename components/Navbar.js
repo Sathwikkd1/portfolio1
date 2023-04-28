@@ -30,7 +30,11 @@ function Navbar() {
 
            </ul>
            
-           <ul className={styles.list}>
+          
+               
+           
+        </div>
+         <ul className={styles.list}>
               <li className={styles.listItems}>
                   <a href = "www.google.com"> Signup </a>
 
@@ -40,9 +44,6 @@ function Navbar() {
                </li>
            
            </ul>
-               
-           
-        </div>
     )
 }
 
