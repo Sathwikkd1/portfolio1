@@ -4,7 +4,7 @@ import { Link } from "react-scroll";
 
 
 
-
+import link from 'next/link'; 
 
 
 function Navbar() {
@@ -28,10 +28,10 @@ function Navbar() {
                    <Link to="portfolio" smooth={true}><a>Books</a></Link>
                </li>
                <li className={styles.listItems}>
-                   <Link href='/signup'>SignUP</Link>
+                   <link href='/signup'>SignUP</Link>
                </li>
                <li className={styles.listItems}>
-                   <Link href='/login'>Login</Link>
+                   <link href='/login'>Login</Link>
                </li>
                <li className={styles.listItems}>
                    <Link to="contact" smooth={true}>Contact</Link>
