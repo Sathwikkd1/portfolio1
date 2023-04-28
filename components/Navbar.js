@@ -22,14 +22,7 @@ function Navbar() {
                <li className={styles.listItems}>
                    <Link to="portfolio" smooth={true}><a>Books</a></Link>
                </li>
-
                <li className={styles.listItems}>
-                   <Link to="contact" smooth={true}>Contact</Link>
-               </li>
-               
-
-           </ul>
-            <li className={styles.listItems}>
                   <a href = "www.google.com"> Signup </a>
 
                </li>
@@ -37,6 +30,13 @@ function Navbar() {
                    <a href = "www.google.com">Login</a>
                </li>
            
+               <li className={styles.listItems}>
+                   <Link to="contact" smooth={true}>Contact</Link>
+               </li>
+               
+
+           </ul>
+            
           
                
            
