@@ -22,7 +22,7 @@ function Navbar() {
            <ul className={styles.list}>
            <Link className={styles.logo} href="/">Library Management</Link>
                <li className={styles.listItems}>
-                   <Link to="about" smooth={true} >About</Link>
+                   <Link href='/' >About</Link>
                </li>
                <li className={styles.listItems}>
                    <Link href='/books'><a>Books</a></Link>
