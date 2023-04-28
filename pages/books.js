@@ -169,4 +169,4 @@ function Portfolio  ()  {
 
 export default Portfolio;
 
-<Navbar\>
+<Navbar/>
