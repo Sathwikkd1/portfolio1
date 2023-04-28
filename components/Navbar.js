@@ -23,10 +23,10 @@ function Navbar() {
                    <Link to="portfolio" smooth={true}><a>Books</a></Link>
                </li>
                <li className={styles.listItems}>
-                   <Link href='https://portfolio1-3uo799o99-megha-yg.vercel.app/books' passhref>SignUP</Link>
+                   <Link to='education' smooth={true}>SignUP</Link>
                </li>
                <li className={styles.listItems}>
-                   <Link href='https://portfolio1-3uo799o99-megha-yg.vercel.app/contact' passhref>Login</Link>
+                   <Link to='skills' smooth={true}>Login</Link>
                </li>
                <li className={styles.listItems}>
                    <Link to="contact" smooth={true}>Contact</Link>
