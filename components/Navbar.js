@@ -25,7 +25,7 @@ function Navbar() {
                    <Link to="about" smooth={true} >About</Link>
                </li>
                <li className={styles.listItems}>
-                   <Link to="portofilo" smooth={true}><a>Books</a></Link>
+                   <Link to="portfolio" smooth={true}><a>Books</a></Link>
                </li>
                <li className={styles.listItems}>
                    <Link href='/signup'>SignUP</Link>
