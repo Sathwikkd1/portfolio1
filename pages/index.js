@@ -15,9 +15,9 @@ export default function Home() {
   return (
   <div>
       <Head>
-        <title>Portfolio</title>
+        <title>LMS</title>
         < meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Portfolio</title>
+        <title>LMS</title>
         <meta name="description" content="My Portfolio" />
         
         <link rel="icon" href="/icon.PNG" />
@@ -32,11 +32,7 @@ export default function Home() {
     <Navbar/>
     <Intro/>
     <ScrollButton/>
-    <Education/>
-    <Skills/>
-    <Portfolio/>
-   
-    <Contact/>
+    
     <Footer/>
   </div>
 
