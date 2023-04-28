@@ -23,10 +23,10 @@ function Navbar() {
                    <Link to="portfolio" smooth={true}><a>Books</a></Link>
                </li>
                <li className={styles.listItems}>
-                   <Link passhref='/signup'>SignUP</Link>
+                   <Link href='/signup' passhref>SignUP</Link>
                </li>
                <li className={styles.listItems}>
-                   <Link passhref='/login'>Login</Link>
+                   <Link href='/login' passhref>Login</Link>
                </li>
                <li className={styles.listItems}>
                    <Link to="contact" smooth={true}>Contact</Link>
