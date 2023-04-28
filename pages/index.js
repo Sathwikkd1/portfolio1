@@ -32,7 +32,8 @@ export default function Home() {
     <Navbar/>
     <Intro/>
     <ScrollButton/>
-    
+    <Portfolio/>
+    <Contact/>
     <Footer/>
   </div>
 
