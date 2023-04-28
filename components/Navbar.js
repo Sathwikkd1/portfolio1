@@ -1,11 +1,6 @@
 import styles from '../styles/Navbar.module.css'
 import { Link } from "react-scroll";
-
-
-
-
-import link from 'next/link'; 
-
+import { Link } from 'react-router-dom';
 
 function Navbar() {
 
@@ -28,10 +23,10 @@ function Navbar() {
                    <Link to="portfolio" smooth={true}><a>Books</a></Link>
                </li>
                <li className={styles.listItems}>
-                   <link href='/signup'>SignUP</link>
+                   <Link href='/signup'>SignUP</Link>
                </li>
                <li className={styles.listItems}>
-                   <link href='/login'>Login</link>
+                   <Link href='/login'>Login</Link>
                </li>
                <li className={styles.listItems}>
                    <Link to="contact" smooth={true}>Contact</Link>
