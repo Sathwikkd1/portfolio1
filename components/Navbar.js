@@ -29,13 +29,7 @@ function Navbar() {
                
 
            </ul>
-           
-          
-               
-           
-        </div>
-         <ul className={styles.list}>
-              <li className={styles.listItems}>
+            <li className={styles.listItems}>
                   <a href = "www.google.com"> Signup </a>
 
                </li>
@@ -43,7 +37,13 @@ function Navbar() {
                    <a href = "www.google.com">Login</a>
                </li>
            
-           </ul>
+          
+               
+           
+        </div>
+         
+             
+           
     )
 }
 
