@@ -12,13 +12,13 @@ function Contact() {
     return (
         <div className={styles.container} id="Login">
  
-           <form className={styles.form} onSubmit={sendEmail}>
+               <h1>Login</h1>
                <input className={styles.inputS} name="Username"placeholder="Username"/>
                <input className={styles.inputS} name="Password"placeholder="Password"/>
                
                
                <button className={styles.btn}>Login</button> 
-           </form>
+     
         </div>
     )
 }
