@@ -36,7 +36,7 @@ function Navbar() {
 
                </li>
                <li className={styles.listItems}>
-                   <a href = "/contact">Login</a>
+                   <a href = "www.google.com">Login</a>
                </li>
            
            </ul>
