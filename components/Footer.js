@@ -7,11 +7,11 @@ function Footer() {
     return (
         <div className={styles.container} id="footer">
             <div className={styles.carL}>
-                <h2 className={styles.title}>MEGHA</h2>
+                <h2 className={styles.title}>JSSSTU</h2>
 
                 <Link href="" passHref>
                 <h1 className={styles.linktitle}>
-                    <span>CONTACT ME</span>
+                    <span>CONTACT</span>
                     
                 </h1>
                 </Link>
@@ -22,7 +22,7 @@ function Footer() {
                     Mysuru, Karnataka <br/> India
                 </div>
                 <div className={styles.cardItem}>
-                    <Link href="/" passHref >contact@gmail.com</Link> 
+                    <Link href="/" passHref >jssstu@gmail.com</Link> 
                 </div>
             </div>
             <div className={styles.carS}>
@@ -45,7 +45,7 @@ function Footer() {
                   
                 </div>
                 <div className={styles.cardItem}>
-                © Megha <br/>All rights reserved 
+                © JSS <br/>All rights reserved 
                 </div>
             
             </div>
