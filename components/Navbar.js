@@ -1,5 +1,5 @@
 import styles from '../styles/Navbar.module.css'
-import Link from 'next/link';
+import { Link } from 'react/scroll';
 
 
 
@@ -22,10 +22,10 @@ function Navbar() {
            <ul className={styles.list}>
            <Link className={styles.logo} href="/">Library Management</Link>
                <li className={styles.listItems}>
-                   <Link href='/' >About</Link>
+                   <Link to="about" smooth={true} >About</Link>
                </li>
                <li className={styles.listItems}>
-                   <Link href='/books'><a>Books</a></Link>
+                   <Link to="portofilo" smooth={true}><a>Books</a></Link>
                </li>
                <li className={styles.listItems}>
                    <Link href='/signup'>SignUP</Link>
@@ -34,7 +34,7 @@ function Navbar() {
                    <Link href='/login'>Login</Link>
                </li>
                <li className={styles.listItems}>
-                   <Link href='/contact'>Contact</Link>
+                   <Link to="contact" smooth={true}>Contact</Link>
                </li>
                
 
