@@ -13,7 +13,7 @@ function Contact() {
         <div className={styles.container} id="Login">
  
                <h1>Login</h1>
-               <input className={styles.inputS} name="Username"placeholder="Username"/>
+               <input className={styles.inputS} name="Userna"placeholder="Username"/>
                <input className={styles.inputS} name="Password"placeholder="Password"/>
                
                
